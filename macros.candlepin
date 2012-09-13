@@ -1,0 +1,5 @@
+# candlepin macros.
+
+# this forces the rpm to build with candlepin-deps
+# instead of pure rpms
+%reqcpdeps 1
