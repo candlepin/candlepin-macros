@@ -8,7 +8,7 @@ Name: candlepin-macros
 Summary: RPM build macros for Candlepin
 Group: Internet/Applications
 License: GPL
-Version: 0.1.0
+Version: 0.1.1
 Release: 1%{?dist}
 URL: https://github.com/candlepin/candlepin-macros
 Source: %{name}-%{version}.tar.gz
@@ -37,3 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/rpm/macros.candlepin
 
 %changelog
+* Thu Sep 13 2012 jesus m. rodriguez <jesusr@redhat.com> 0.1.1-1
+- add macros.candlepin to rpm macros
+- new package built with tito
+
